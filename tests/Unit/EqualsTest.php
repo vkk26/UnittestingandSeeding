@@ -5,16 +5,17 @@ namespace Tests\Unit;
 use Tests\TestCase;
 use Illuminate\Foundation\Testing\WithFaker;
 use Illuminate\Foundation\Testing\RefreshDatabase;
+use APP\User;
 
-class ArrayHasKeyTest extends TestCase
+class EqualsTest extends TestCase
 {
     /**
      * A basic test example.
      *
      * @return void
      */
-    public function testFailure()
+    public function testExample()
     {
-        $this->assertArrayHasKey('foo', ['bar' => 'baz']);
+        $this->assertEquals(0, 0);
     }
 }
